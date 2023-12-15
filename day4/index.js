@@ -37,28 +37,6 @@ function part1() {
 // part1();
 
 function scratchCard(set) {
-  // let result = set.map((element, i) => i);
-  // let i = 0;
-
-  // const cardWinningCardsMap = set.reduce((acc, curr, index) => {
-  //   const [myNumbers, winningNumbers] = curr;
-  //   const cardPoints = myNumbers.filter(myNumber => winningNumbers.indexOf(myNumber) !== -1);
-  //   return {
-  //     ...acc,
-  //     [index]: cardPoints.map((m, mi) => index + mi + 1),
-  //   }
-  // }, {});
-
-  // while (i < result.length) {
-  //   console.log(i, result.length);
-  //   result = [
-  //     ...result,
-  //     ...cardWinningCardsMap[result[i]] || [],
-  //   ]
-  //   i++;
-  // }
-
-  // initialize the array - each card has at least one.
   const cardCount = set.map((_) => 1);
 
   console.log(set.length);
